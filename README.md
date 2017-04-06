@@ -31,7 +31,7 @@ BTW. My friends also made some other platform's NumberProgressBar：
 
 ```groovy
 dependencies {
-   compile 'com.daimajia.numberprogressbar:library:1.2@aar'
+   compile 'com.daimajia.numberprogressbar:library:1.4@aar'
 }
 ```
 
@@ -41,7 +41,7 @@ dependencies {
 <dependency>
     <groupId>com.daimajia.numberprogressbar</groupId>
     <artifactId>library</artifactId>
-    <version>1.2</version>
+    <version>1.4</version>
     <type>apklib</type>
 </dependency>
 ```
@@ -132,8 +132,8 @@ for example, the default style:
 	        custom:progress_text_offset="1dp"
 	        custom:progress_text_visibility="visible"
 	        
-	        custom:max="100"
-	        custom:progress="80"
+	        custom:progress_max="100"
+	        custom:progress_current="80"
 	         />
 ```
 
@@ -142,7 +142,3 @@ for example, the default style:
 A student in China mainland, I like Google, like Android, like open source, like doing something interesting. :)
 
 If you have some new idea or internship opportunity, please [email me](mailto:daimajia@gmail.com) !
-
-PS: Welcome to visit the site I am maintaining, which is a site to share graceful Android libraries for every Android developer.
-
-Its name is [Moo Droid](http://moodroid.com) :-D , and also welcome submit your beautiful library to [Moo Droid](http://moodroid.com). 
